@@ -1,0 +1,84 @@
+bai tap java day 4
+	//tong uoc
+        // long n = sc.nextLong();
+        // long sum=0;
+        // n la long nen i cung long
+        // for(long i=0;i<= Math.sqrt(n);i++){
+        //     if(n%i==0){
+        //         sum+=i;
+        //         if(i!=n/i){
+        //             sum+=n/i;
+        //         }
+        //     }
+        // }
+        // System.out.println(sum);
+
+        //kiem tra 2022 co xuat hien trong day so ko
+        // int n=sc.nextInt();
+        // boolean check=false;
+        // for(int i=0;i<=n;i++){
+        //     int x=sc.nextInt();
+        //     if(x==2022){
+        //         check =true;
+        //     }
+        // }
+        // if(check==false)
+        // {
+        //     System.out.println("no");
+        // }
+        // else{
+        //     System.out.println("Yes");
+        // }
+
+
+        //liet ke so chinh phuong
+        // long n=sc.nextLong();
+        // for(int i=0;i<= Math.sqrt(n);i++){
+        //     System.out.println(1l * i * i + " ");
+
+
+
+ 	//viet vong lap
+        int n=sc.nextInt();
+        for(int i=0;i<=n;i++){
+            System.out.print(i +" ");
+        }
+        
+        System.out.println("");
+        for(int i=n;i>=0;i--){
+            System.out.print(i +" ");
+        }
+
+        System.out.println("");
+        for(int i=0;i<=n;i++)
+        {
+            if(i%2==0){
+                System.out.print(i+" ");
+            }
+        }
+
+        System.out.println("");
+        for(int i=0;i<=n;i++)
+        {
+            if(i%2!=0){
+                System.out.print(i+" ");
+            }
+        }
+
+        System.out.println("");
+        for(int i=0;i<=n;i++){
+            if(i%4==0){
+                System.out.print(i+" ");
+            }
+        }
+
+        System.out.println("");
+        for(int i=0;i<n;i++){
+            System.out.print((char)(i+97)+ " ");
+        }
+
+        System.out.println("");
+        for(int i=122-n-1;i<=122;i++){
+            System.out.print((char)(i)+ " ");
+        }
+        System.out.println("");
