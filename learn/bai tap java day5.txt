@@ -1,0 +1,35 @@
+bai tap java day5
+	//ax+by=n co ton tai cap nghiem ko
+        // int a=sc.nextInt(),b=sc.nextInt(),n=sc.nextInt();
+        // boolean check=false;
+        // for(int x=0;x<=n/a;x++){
+        //     if((n-a*x)%b==0){
+        //         check=true;
+        //         break;
+        //     }
+        // }
+        // if(check) System.out.println("Yes");
+        // else System.out.println("No");
+
+        // long n=sc.nextLong();
+        // while (n >=10) {
+        //     // tinh tong cac chu so n
+        //     int tong=0;
+        //     while (n!=0) {
+        //         tong+=n%10;
+        //         n/=10;
+        //     }
+        //     n=tong;
+        // }
+        // System.out.println(n);
+
+        // int t=sc.nextInt();
+        // for(int i=0;i<=t;i++){
+        //     int n=sc.nextInt();
+        //     if(n%2==0){
+        //         System.out.println("EVEN");
+        //     }
+        //     else{
+        //         System.out.println("ODD");
+        //     }
+        // }
